@@ -3,10 +3,7 @@
 # 爬虫、反爬虫
 # 频繁爬取会导致被封，解决办法有使用代理IP
 
-
-
-
-# 前奏：
+# 准备：
 # 1、明确爬虫的目的
 # 2、找到数据对应的网页
 # 3、分析网页的结构，找到数据所在的标签位置
@@ -81,6 +78,3 @@ class Spider():
 spider = Spider()  # 实例化一个对象
 file_path = r'E:\Visual Studio Code Projects\Python\spider\game_2336_pop_ranking.txt'
 spider.go(file_path)
-# print(popularity_ranking)
-# print(len(obj[0][0]))
-# print('\n')
